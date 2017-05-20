@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+a {
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.wrap{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.header{
+	height: 380px;
+	background: url('../images/Hero.png');
+	margin: 0 auto;
+	text-align: center;
+}
+.header h1{
+    font-family: PingFangTC-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    padding: 90px 0;
+}
+.tourismStyle{
+	background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    width: 430px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: PingFangTC-Regular;
+    color: #000000;
+    line-height: 21px;
+}
+.content{
+	max-width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+.cityMenu{
+	max-width: 780px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 20px 10px 25px;
+	position: relative;
+	top: -68px;
+	text-align: left;
+}
+.cityMenu h2{
+	text-align: left;
+	font-family: AppleSystemUIFont;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000;
+	margin-left: 25px;
+}
+.cityContent{
+	max-width: 100%;
+	margin: 0 auto;
+	float: left;
+}
+.cityLocal{
+	max-width: 100%;
+	float: left;
+}
+.cityMenu li{
+	display: inline-block;
+	margin-top: 20px;
+}
+.cityMenu a{
+	text-transform: none;
+	font-family: .PingFangTC-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 10px 32px;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+.cityName{
+	font-family: .SFNSDisplay;
+	font-size: 36px;
+	color: #8A82CC;
+	margin: 60px 0 10px;
+	font-weight: 700; 
+}
+.cityStyle{
+	width: 460px;
+	height: auto;
+	overflow: hidden;
+	text-align: left;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0 10px 0 20px;
+	padding: 20px 0;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+}
+.cityStyle h3{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	height: auto;
+	padding: 120px 10px 10px;
+	color: #FFFFFF;
+	font-size: 24px;
+	margin: 0px 10px 20px;
+}
+.cityStyle span{
+	float: right;
+	font-size: 16px;
+}
+.cityStyle p{
+	font-family: AppleSystemUIFont;
+	font-size: 16px;
+	color: #000000;
+	margin-left: 20px;
+}
+.clock{
+	color: #9858a9;
+}
+.marker{
+	color: #d9a328;
+}
+.phone{
+	color: #00c7ff;
+}
+.LingYa{
+	background: #8A82CC;
+}
+.Sanmin{
+	background: #FFA782;
+}
+.XinXing{
+	background: #F5D105;
+}
+.YanCheng{
+	background: #559AC8;
+}
+.footer{
+	background: #559AC8;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+.dottedLine{
+	border-top:1px dashed #559AC8;
+	height: 11px;
+	max-width: 900px;
+	margin: 0 auto;
+	z-index: 50;
+}
+.dottedLine i{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -15px;
+	color: #559AC8;
+	z-index: 51;
+	padding:4px 2px 0; 
+	border: 2px solid #559AC8;
+	border-radius: 50%;
+	background: #ffffff;
+}
+.footer h5{
+	font-family: .AppleSystemUIFont;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding: 20px 0px 7px;
+}
+.footer h6{
+	font-family: .AppleSystemUIFont;
+	font-size: 14px;
+	color: #FFD366;
+	padding: 7px 0px 20px;
+}
