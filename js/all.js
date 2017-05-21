@@ -8,12 +8,11 @@ cityData("三民區");
 
 
 function cityChoice(e){
+	if(e.target.nodeName !== "A"){return};
 	e.preventDefault();
-	if(e.target.nodeName !== "Li"){
 		var cityName = e.target.textContent
 		document.querySelector('.cityName').textContent = cityName;
 		cityData(cityName);
-	}
 }
 function selectChoice(e){
 	var cityName = e.target.value;
