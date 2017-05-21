@@ -1,5 +1,5 @@
 var select = document.getElementById('khTourism');
-var cityClick = document.querySelector('.cityMenu li');
+var cityClick = document.querySelector('.cityMenu');
 var local = document.querySelector('.cityLocal');
 
 cityClick.addEventListener('click',cityChoice,false);
